@@ -1,0 +1,60 @@
+body {
+    color: white;
+    background-color: #141414;
+}
+div {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+div p {
+    text-align: center;
+    font-size: 60px;
+    margin: 60px;
+}
+#fileSelection p {
+    user-select: none;
+    text-decoration: underline;
+}
+#fileSelection input {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    font-size: 32px;
+    font-family: serif;
+}
+div.hidden {
+    display: none;
+}
+#memoriserButtons {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+#memoriserHead {
+    text-decoration: overline;
+}
+#backButton {
+    font-size: 15px;
+    width: 198px;
+    margin-top: 15px;
+}
+#progress {
+    font-family: monospace;
+}
+#memoriserButtons button {
+    font-size: 26px;
+    text-align: center;
+    width: 250px;
+    height: 80px;
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    cursor: pointer;
+    margin: 1.5px;
+    text-decoration: underline;
+}
+#memoriserButtons button:hover { 
+    border-color: #464646;
+    background-color: #464646;
+}
